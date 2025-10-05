@@ -1,11 +1,11 @@
 # Legend Of Mortal - EN
-English Translation for the game Legend of Mortal.
+English Translation for the game Legend of Mortal. Still a work in progress.
 
 ## Prerequisites
 
 These are included in this repository and you do not need to download them separately. Links are below if you still want to get them on your own.
 
-If you plan to download the prerequisites yourself, please note that the game executable is 32-bit. And the XUnity.AutoTranslator config language needs to be `zh-CN` for Simplified Chinese. This is case sensitive. You only need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
+If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnity.AutoTranslator config language needs to be `zh-CN` for Simplified Chinese. This is case sensitive. You only need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
 
 - BepInEx [Click Here](https://github.com/BepInEx/BepInEx)
 
@@ -13,10 +13,11 @@ If you plan to download the prerequisites yourself, please note that the game ex
 
 ## Installation
 
-1. Clone or Download this repository by clicking on `<> Code` and under `HTTPS Download ZIP`. Right click and extract the Zip file. You only need the `Mod` folder, feel free to delete everything else.
+1. Clone or Download this repository by clicking on `<> Code` and under `HTTPS` click `Download ZIP`. Then right click and extract the zipped file you just downloaded. Keep the `Mod` folder, feel free to delete everything else.
 ![Code](assets/Screenshot1.png)
 
-2. Copy and Paste everything inside the Mod folder to your game directory. The game directory location may vary. It's usually in `C:\Program Files (x86)\Steam\steamapps\common\` but if you are unsure right click the game in your steam library and select properties. Under 'Installed Files' click on 'Browse' to open your game directory. After you're done copying the files, the game folder structure should look like this.
+2. Copy and Paste everything inside the Mod folder to your game directory. The game directory location may vary. It's usually in `C:\Program Files (x86)\Steam\steamapps\common\` but if you are unsure right click the game in your steam library and select properties. Under `Installed Files` click on `Browse` to open your game directory. After you're done copying the files, the game folder structure should look like this.
+
 
 ```
 Legend_of_Mortal/
@@ -61,10 +62,11 @@ Legend_of_Mortal/
 
 ### Other notes
 
-The source of the text in Chinese is from version 1.0.5000.2 which is right after the Ye Yunshang / Qingcheng route. There may be new additional text which were added later but those would remain untranslated. As of now I have no plans of adding text from new versions.
+AutoTranslator might not detect text if the setting `Enable color change of read text` is on. Keep it off.
+
+The source of the text in Chinese is from version `1.0.5000.2`. There may be new additional text which were added later but those would remain untranslated. As of now I have no plans of adding text from new versions.
 
 The translation has been done by an LLM and I'm still in the process of reviewing the story for accuracy but this will take an enormous amount of time for a single person. I've already reviewed and fixed a good chunk of the dialogue and in my opinion it's in a comprehensible state.
 
-
-### As of 4/10/2025 45%~ of the dialogue has been reviewed and fixed. 
+### As of 5/10/2025 50%~ of the dialogue has been reviewed and fixed. 
 ##### I'll update this from time to time as I make progress.
