@@ -1,4 +1,5 @@
-# Legend Of Mortal - EN
+# Legend Of Mortal - EN  ( 活侠传 / 活俠傳 )
+
 English Translation for the game Legend of Mortal. Still a work in progress.
 
 ## Prerequisites
@@ -16,7 +17,7 @@ If you plan to download the prerequisites yourself, please note that the game ex
 1. Clone or Download this repository by clicking on `<> Code` and under `HTTPS` click `Download ZIP`. Then right click and extract the zipped file you just downloaded. Keep the `Mod` folder, feel free to delete everything else.
 ![Code](assets/Screenshot1.png)
 
-2. Copy and Paste everything inside the Mod folder to your game directory. The game directory location may vary. It's usually in `C:\Program Files (x86)\Steam\steamapps\common\` but if you are unsure right click the game in your steam library and select properties. Under `Installed Files` click on `Browse` to open your game directory. After you're done copying the files, the game folder structure should look like this.
+2. Copy and Paste everything inside the `Mod` folder to your game directory. The game directory location may vary. It's usually in `C:\Program Files (x86)\Steam\steamapps\common\` but if you are unsure right click the game in your steam library and select `properties`. Under `Installed Files` click on `Browse` to open your game directory. After you're done copying the files, the game folder structure should look like this.
 
 
 ```
@@ -68,5 +69,5 @@ The source of the text in Chinese is from version `1.0.5000.2`. There may be new
 
 The translation has been done by an LLM and I'm still in the process of reviewing the story for accuracy but this will take an enormous amount of time for a single person. I've already reviewed and fixed a good chunk of the dialogue and in my opinion it's in a comprehensible state.
 
-### As of 5/10/2025 50%~ of the dialogue has been reviewed and fixed. 
-##### I'll update this from time to time as I make progress.
+### As of 7/10/2025 53%~ of the dialogue has been reviewed and fixed. 
+###### I'll update this from time to time as I make progress.
