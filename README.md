@@ -6,7 +6,9 @@ English Translation for the game Legend of Mortal. Still a work in progress.
 
 These are included in this repository and you do not need to download them separately. Links are below if you still want to get them on your own.
 
-If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnity.AutoTranslator config language needs to be `zh-CN` for Simplified Chinese. This is case sensitive. You only need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
+If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnity.AutoTranslator config language needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
+
+You only need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
 
 - BepInEx [Click Here](https://github.com/BepInEx/BepInEx)
 
@@ -69,5 +71,6 @@ The source of the text in Chinese is from version `1.0.5000.2`. There may be new
 
 The translation has been done by an LLM and I'm still in the process of reviewing the story for accuracy but this will take an enormous amount of time for a single person. I've already reviewed and fixed a good chunk of the dialogue and in my opinion it's in a comprehensible state.
 
-### As of 7/10/2025 53%~ of the dialogue has been reviewed and fixed. 
+##### Dialogue Review/Fix Completion    : 58%
+##### Last Updated                      : 10/10/2025
 ###### I'll update this from time to time as I make progress.
