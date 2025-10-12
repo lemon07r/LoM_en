@@ -71,6 +71,6 @@ The source of the text in Chinese is from version `1.0.5000.2`. There may be new
 
 The translation has been done by an LLM and I'm still in the process of reviewing the story for accuracy but this will take an enormous amount of time for a single person. I've already reviewed and fixed a good chunk of the dialogue and in my opinion it's in a comprehensible state.
 
-##### Dialogue Review/Fix Completion    : 58%
-##### Last Updated                      : 10/10/2025
+#### Dialogue Review/Fix Completion    : 63%
+#### Last Updated                      : 12/10/2025
 ###### I'll update this from time to time as I make progress.
