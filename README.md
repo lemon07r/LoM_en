@@ -1,6 +1,6 @@
 # Legend Of Mortal - EN  ( 活侠传 / 活俠傳 )
 
-English Translation for the game Legend of Mortal. Still a work in progress.
+Unofficial English Translation for the game Legend of Mortal. Still a work in progress.
 
 ## Prerequisites
 
@@ -8,7 +8,7 @@ These are included in this repository and you do not need to download them separ
 
 If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnity.AutoTranslator config language needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
 
-You only need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
+You only need the `Translation_zh-CN_to_en.txt` file and `Endings` folder from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
 
 - BepInEx [Click Here](https://github.com/BepInEx/BepInEx)
 
@@ -41,6 +41,7 @@ Legend_of_Mortal/
 ├─── ├─── ├─── ├─── ├─── _Preprocessors.txt
 ├─── ├─── ├─── ├─── ├─── _Substitutions.txt
 ├─── ├─── ├─── ├─── ├─── Translation_zh-CN_to_en.txt  <---Translation File
+├─── ├─── ├─── ├─── ├─── /Endings                     <---Translation Folder
 ├─── ├─── LogOutput.log
 ├─── Mods/
 ├─── MonoBleedingEdge/
@@ -62,6 +63,16 @@ Legend_of_Mortal/
 
 ![Dropdown menu](assets/Screenshot3.png)
 
+### Ending Slides
+
+Ending slides in Chinese are presented in a vertical format. While these haven been translated, they're unreadable since English naturally takes up more screen real estate. The translations for these are in `Endings` folder, should you want to read. Of course, do not read them beforehand unless you want spoilers. It's entirely possible that there are several variations of these slides, but I haven't played through them yet.
+
+As of `1.0.5000.2`, not all romance routes have been completed by the devs. As far as I'm aware these are the ones in game.
+
+- Little Junior Sister
+- Long Xiang
+- Xiahou Lan
+- Ye Yunshang
 
 ### Other notes
 
@@ -72,5 +83,5 @@ The source of the text in Chinese is from version `1.0.5000.2`. There may be new
 The translation has been done by an LLM and I'm still in the process of reviewing the story for accuracy but this will take an enormous amount of time for a single person. I've already reviewed and fixed a good chunk of the dialogue and in my opinion it's in a comprehensible state.
 
 #### Dialogue Review/Fix Completion    : 63%
-#### Last Updated                      : 12/10/2025
+#### Last Updated                      : 13/10/2025
 ###### I'll update this from time to time as I make progress.
