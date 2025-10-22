@@ -40,6 +40,9 @@ Legend_of_Mortal/
 ├─── ├─── ├─── ├─── ├─── _Postprocessors.txt
 ├─── ├─── ├─── ├─── ├─── _Preprocessors.txt
 ├─── ├─── ├─── ├─── ├─── _Substitutions.txt
+├─── ├─── ├─── ├─── ├─── mainmenu.resizer.txt         <---UI Adustments
+├─── ├─── ├─── ├─── ├─── status.resizer.txt           <---UI Adustments
+├─── ├─── ├─── ├─── ├─── story.resizer.txt            <---UI Adustments
 ├─── ├─── ├─── ├─── ├─── Translation_zh-CN_to_en.txt  <---Translation File
 ├─── ├─── ├─── ├─── ├─── /Endings                     <---Translation Folder
 ├─── ├─── LogOutput.log
@@ -82,6 +85,6 @@ The source of the text in Chinese is from version `1.0.5000.2`. There may be new
 
 The translation has been done by an LLM and I'm still in the process of reviewing the story for accuracy but this will take an enormous amount of time for a single person. I've already reviewed and fixed a good chunk of the dialogue and in my opinion it's in a comprehensible state.
 
-#### Dialogue Review/Fix Completion    : 68%
-#### Last Updated                      : 21/10/2025
+#### Dialogue Review/Fix Completion    : 70%
+#### Last Updated                      : 23/10/2025
 ###### I'll update this from time to time as I make progress.
