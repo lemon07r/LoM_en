@@ -6,7 +6,7 @@ Unofficial English Translation for the game Legend of Mortal.
 
 These are included in this repository and you do not need to download them separately. Links are below if you still want to get them on your own.
 
-If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnity.AutoTranslator config language needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
+If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnity.AutoTranslator config FromLanguage setting needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
 
 You only need the `Translation_zh-CN_to_en.txt` file and `Endings` folder from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
 
@@ -84,7 +84,7 @@ AutoTranslator might not detect text if the setting `Enable color change of read
 The source of the text in Chinese is from version `1.0.5000.2`. There may be new additional text which were added later but those would remain untranslated. As of now I have no plans of adding text from new versions.
 
 Legend remains untranslated. It is a record/summary of events that you've experienced as a player. 
-xUnityAutoTranslator will not detect huge blocks of text without increasing the word limit to an unreasonably high count. This can cause other issues like translating fight calculations behind the scenes which are in Chinese. So for the moment this will appear as untranslated Chinese in the game.
+xUnityAutoTranslator will not detect blocks of text that huge as the character limit is 2500.
 
 #### Dialogue Review/Fix Completion    : 76% (Story dialogue is complete)
 #### Last Updated                      : 01/11/2025
