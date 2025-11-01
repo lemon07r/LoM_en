@@ -87,5 +87,5 @@ Legend remains untranslated. It is a record/summary of events that you've experi
 xUnityAutoTranslator will not detect huge blocks of text without increasing the word limit to an unreasonably high count. This can cause other issues like translating fight calculations behind the scenes which are in Chinese. So for the moment this will appear as untranslated Chinese in the game.
 
 #### Dialogue Review/Fix Completion    : 76% (Story dialogue is complete)
-#### Last Updated                      : 26/10/2025
+#### Last Updated                      : 01/11/2025
 ###### I'll update this from time to time as I make progress.
