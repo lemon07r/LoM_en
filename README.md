@@ -4,11 +4,11 @@ Unofficial English Translation for the game Legend of Mortal.
 
 ## Prerequisites
 
-These are included in this repository and you do not need to download them separately. Links are below if you still want to get them on your own.
+These are included in this repository and you do not need to download them separately. Skip to installation if you don't plan to manually get these. Links are below if you still want to get them on your own.
 
-If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnity.AutoTranslator config FromLanguage setting needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
+If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnityAutoTranslator config FromLanguage needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
 
-You only need the `Translation_zh-CN_to_en.txt` file and `Endings` folder from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
+You need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
 
 - BepInEx [Click Here](https://github.com/BepInEx/BepInEx)
 
@@ -44,7 +44,6 @@ Legend_of_Mortal/
 ├─── ├─── ├─── ├─── ├─── status.resizer.txt           <---UI Adustments
 ├─── ├─── ├─── ├─── ├─── story.resizer.txt            <---UI Adustments
 ├─── ├─── ├─── ├─── ├─── Translation_zh-CN_to_en.txt  <---Translation File
-├─── ├─── ├─── ├─── ├─── /Endings                     <---Translation Folder
 ├─── ├─── LogOutput.log
 ├─── Mods/
 ├─── MonoBleedingEdge/
@@ -66,26 +65,16 @@ Legend_of_Mortal/
 
 ![Dropdown menu](assets/Screenshot3.png)
 
-### Ending Slides
-
-Ending slides in Chinese are presented in a vertical format. While these haven been translated, they're unreadable since English naturally takes up more screen real estate. The translations for these are in `Endings` folder, should you want to read. Of course, do not read them beforehand unless you want spoilers.
-
-As of `1.0.5000.2`, not all romance routes have been completed by the devs. As far as I'm aware these are the ones in game.
-
-- Little Junior Sister
-- Long Xiang
-- Xiahou Lan
-- Ye Yunshang
-
 ### Other notes
 
-AutoTranslator might not detect text if the setting `Enable color change of read text` is on. Keep it off.
+Please delete the existing BepInEx folder if you're updating from an older version of the repository. Leftover files that are not overwritten may cause problems with translation.
+
+xUnityAutoTranslator might not detect text if the setting `Enable color change of read text` is on. Keep it off.
 
 The source of the text in Chinese is from version `1.0.5000.2`. There may be new additional text which were added later but those would remain untranslated. As of now I have no plans of adding text from new versions.
 
-Legend remains untranslated. It is a record/summary of events that you've experienced as a player. 
-xUnityAutoTranslator will not detect blocks of text that huge as the character limit is 2500.
+Legend remains untranslated. It is a record/summary of events that you've experienced as a player. xUnityAutoTranslator will not detect blocks of text that huge as the character limit is 2500.
 
 #### Dialogue Review/Fix Completion    : 76% (Story dialogue is complete)
-#### Last Updated                      : 01/11/2025
+#### Last Updated                      : 07/11/2025
 ###### I'll update this from time to time as I make progress.

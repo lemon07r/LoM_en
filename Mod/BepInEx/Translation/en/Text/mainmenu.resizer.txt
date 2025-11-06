@@ -32,3 +32,42 @@
 /UI/Layer_2/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Free/Delete=AutoResize(true,12,24)
 /UI/Layer_2/LoadGamePanel/Container/Scroll View/Viewport/Slots/LoadGameSlot(Clone)/Delete=AutoResize(true,12,24)
 /UI/Layer_2/LoadGamePanel/Container/Scroll View/Viewport/Slots/LoadGameSlot(Clone)/Delete=UGUI_HorizontalOverflow(overflow)
+
+
+#Endings
+#Success
+/UI/Layer_3/LibraryPanel/Panels/Achievement/Scroll View/Viewport/Content/LibraryAchievementItem(Clone)/Title=AutoResize(true,12,21)
+/UI/Layer_3/LibraryPanel/Panels/Achievement/Scroll View/Viewport/Content/LibraryAchievementItem(Clone)/Desc=AutoResize(true,12,19)
+/UI/Layer_3/LibraryPanel/Panels/Achievement/Scroll View/Viewport/Content/LibraryAchievementItem(Clone)/Award=AutoResize(true,12,19)
+
+#Failure
+/UI/Layer_3/LibraryPanel/Panels/Dead/Scroll View/Viewport/Content/LibraryDeadItem(Clone)/Visible/Title=AutoResize(true,12,21)
+/UI/Layer_3/LibraryPanel/Panels/Dead/Scroll View/Viewport/Content/LibraryDeadItem(Clone)/Visible/Desc=AutoResize(true,12,19)
+/UI/Layer_3/LibraryPanel/Panels/Dead/Scroll View/Viewport/Content/LibraryDeadItem(Clone)/Visible/Count=AutoResize(true,12,19)
+
+#Fate Bonus=====
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/Scroll View/Viewport/Content/BonusRelationship_60(Clone)/Name=AutoResize(true,12,20)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/Scroll View/Viewport/Content/BonusRelationship_20(Clone)/Name=AutoResize(true,12,20)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/Scroll View/Viewport/Content/BonusRelationship_10(Clone)/Name=AutoResize(true,12,20)
+
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_Normal(Clone)/Name=AutoResize(true,12,20)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_Normal(Clone)/Name=UGUI_VerticalOverflow(overflow)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_TwoForm(Clone)/Name=AutoResize(true,12,20)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_TwoForm(Clone)/Value=AutoResize(true,12,20)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_Upgrade(Clone)/Name=AutoResize(true,12,20)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_Money(Clone)/Value=AutoResize(true,12,20)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container/BonusProperty_Money(Clone)/Name=AutoResize(true,12,20)
+
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Home/Container/BonusFlag(Clone)/Name=UGUI_VerticalOverflow(overflow)
+/[UI]/TopPanel/FateBonusPanel/Container/Panels/Home/Container/BonusFlag(Clone)/Name=AutoResize(true,12,20)
+
+
+/[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton_Property/Normal/Text (TMP)=AutoResize(true,12,16)
+/[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton_Property/Enable/Text (TMP)=AutoResize(true,12,16)
+
+/[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton_Social/Normal/Text (TMP)=AutoResize(true,12,16)
+/[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton_Social/Enable/Text (TMP)=AutoResize(true,12,16)
+
+/[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton_Home/Normal/Text (TMP)=AutoResize(true,12,16)
+/[UI]/TopPanel/FateBonusPanel/Container/Buttons/StatusButton_Home/Enable/Text (TMP)=AutoResize(true,12,16)
+#==============
