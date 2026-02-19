@@ -1,14 +1,14 @@
 # Legend Of Mortal - EN  ( 活侠传 / 活俠傳 )
 
-Unofficial English Translation for the game Legend of Mortal.
+Unofficial English Translation for the game Legend of Mortal. 
+
+Preview of an older version [Here](https://www.youtube.com/watch?v=-y4dPT-_AnA)
 
 ## Prerequisites
 
-These are included in this repository and you do not need to download them separately. Skip to installation if you don't plan to manually get these. Links are below if you still want to get them on your own.
+These are included in this repository and you do not need to download them separately. Skip to installation if you don't plan to manually get these. Links are below if you still want to get them on your own. Please note that the game executable is `32-bit`, and the XUnityAutoTranslator config FromLanguage needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
 
-If you plan to download the prerequisites yourself, please note that the game executable is `32-bit`, and the XUnityAutoTranslator config FromLanguage needs to be `zh-CN` for Simplified Chinese. This is case sensitive. 
-
-You need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
+You need the `Translation_zh-CN_to_en.txt` and `UI.resizer.txt` file from `LoM_en\Mod\BepInEx\Translation\en\Text` and paste it in your respective BepInEx folder.
 
 - BepInEx [Click Here](https://github.com/BepInEx/BepInEx)
 
@@ -16,7 +16,7 @@ You need the `Translation_zh-CN_to_en.txt` file from `LoM_en\Mod\BepInEx\Transla
 
 ## Installation
 
-1. Clone or Download this repository by clicking on `<> Code` and under `HTTPS` click `Download ZIP`. Then right click and extract the zipped file you just downloaded. Keep the `Mod` folder, feel free to delete everything else.
+1. Clone or Download this repository by clicking on `<> Code` and under `HTTPS` click `Download ZIP`. Then right click and extract the zipped file you just downloaded. Keep the `Mod` folder, feel free to delete everything else. If you're updating from an older version
 ![Code](assets/Screenshot1.png)
 
 2. Copy and Paste everything inside the `Mod` folder to your game directory. The game directory location may vary. It's usually in `C:\Program Files (x86)\Steam\steamapps\common\` but if you are unsure right click the game in your steam library and select `properties`. Under `Installed Files` click on `Browse` to open your game directory. After you're done copying the files, the game folder structure should look like this.
@@ -40,9 +40,7 @@ Legend_of_Mortal/
 ├─── ├─── ├─── ├─── ├─── _Postprocessors.txt
 ├─── ├─── ├─── ├─── ├─── _Preprocessors.txt
 ├─── ├─── ├─── ├─── ├─── _Substitutions.txt
-├─── ├─── ├─── ├─── ├─── mainmenu.resizer.txt         <---UI Adustments
-├─── ├─── ├─── ├─── ├─── status.resizer.txt           <---UI Adustments
-├─── ├─── ├─── ├─── ├─── story.resizer.txt            <---UI Adustments
+├─── ├─── ├─── ├─── ├─── UI.resizer.txt               <---UI Adustments
 ├─── ├─── ├─── ├─── ├─── Translation_zh-CN_to_en.txt  <---Translation File
 ├─── ├─── LogOutput.log
 ├─── Mods/
@@ -71,10 +69,9 @@ Please delete the existing BepInEx folder if you're updating from an older versi
 
 xUnityAutoTranslator might not detect text if the setting `Enable color change of read text` is on. Keep it off.
 
-The source of the text in Chinese is from version `1.0.5000.2`. There may be new additional text which were added later but those would remain untranslated. As of now I have no plans of adding text from new versions.
-
 Legend remains untranslated. It is a record/summary of events that you've experienced as a player. xUnityAutoTranslator will not detect blocks of text that huge as the character limit is 2500.
 
-#### Dialogue Review/Fix Completion    : 76% (Story dialogue is complete)
-#### Last Updated                      : 07/11/2025
-###### I'll update this from time to time as I make progress.
+If you are having trouble with the installation or would like to report mistranslated/incomprehensible text, feel free to DM me on Discord@`.velvetcakes1`
+
+#### Story Updated for Game Version     : 1.0.5000.13
+#### Last Updated                      : 19/02/2026
