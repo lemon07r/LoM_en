@@ -1,7 +1,12 @@
+##############################################
 ##TitleUI
+##############################################
 /UI/Layer_1/Buttons=AutoResize(true,24,24)
+##############################################
 
+##############################################
 ##SettingsUI
+##############################################
 /UI/Layer_3/SystemSettingPanel/Header=AutoResize(true,50,50)
 /UI/Layer_3/SystemSettingPanel/Panel=AutoResize(true,22,22)
 /UI/Layer_3/SystemSettingPanel/Panel/Game/Language/Dropdown
@@ -10,8 +15,11 @@
 /UI/Layer_3/LibraryPanel/Buttons=UGUI_HorizontalOverflow(overflow)
 /UI/Layer_3/LibraryPanel/Buttons=AutoResize(true,12,30)
 /UI/Layer_3/LibraryPanel/Panels/EndGame/Scroll View/Viewport/Content/LibraryEndItem(Clone)/Index=AutoResize(true,12,24)
+##############################################
 
+##############################################
 ##DepartUI
+##############################################
 /UI/Layer_2/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Story/Slot/Header/Text=AutoResize(true,18,18)
 /UI/Layer_2/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Battle/Slot/Header/Text=AutoResize(true,18,18)
 /UI/Layer_2/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Free/Slot/Header/Text=AutoResize(true,18,18)
@@ -25,9 +33,11 @@
 /UI/Layer_2/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Free/Slot/Header/Slot=AutoResize(true,20,20)
 /UI/Layer_2/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Story/Slot/Header/Slot=AutoResize(true,20,20)
 /UI/Layer_2/LoadGamePanel/Container/Scroll View/Viewport/Slots/LoadGameSlot(Clone)/Slot/Header=AutoResize(true,20,20)
+##############################################
 
-
+##############################################
 ##LOADUI
+##############################################
 /[UI]/TopPanel/MenuPanel/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Story/Slot/Header/Text=AutoResize(true,18,18)
 /[UI]/TopPanel/MenuPanel/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Battle/Slot/Header/Text=AutoResize(true,18,18)
 /[UI]/TopPanel/MenuPanel/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Free/Slot/Header/Text=AutoResize(true,18,18)
@@ -43,35 +53,35 @@
 /[UI]/TopPanel/MenuPanel/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Story/Slot/Header/Slot=AutoResize(true,20,20)
 /[UI]/TopPanel/MenuPanel/LoadGamePanel/Container/AutoSave/GameAutoSaveSlot_Free/Slot/Header/Slot=AutoResize(true,20,20)
 /[UI]/TopPanel/MenuPanel/LoadGamePanel/Container/Scroll View/Viewport/Slots/LoadGameSlot(Clone)/Slot/Header=AutoResize(true,20,20)
+##############################################
 
+##############################################
 ##SAVEUI
+##############################################
 /[UI]/TopPanel/MenuPanel/SaveGamePanel/Container/Scroll View/Viewport/Slots/SaveGameSlot(Clone)/Slot=AutoResize(true,26,26)
 /[UI]/TopPanel/MenuPanel/SaveGamePanel/Container/Scroll View/Viewport/Slots/SaveGameSlot(Clone)/Slot/Header=AutoResize(true,20,20)
+##############################################
 
-#Endings
-#Success
+##############################################
+##Success Endings
+##############################################
 /UI/Layer_3/LibraryPanel/Panels/Achievement/Scroll View/Viewport/Content/LibraryAchievementItem(Clone)/Title=AutoResize(true,12,21)
 /UI/Layer_3/LibraryPanel/Panels/Achievement/Scroll View/Viewport/Content/LibraryAchievementItem(Clone)=AutoResize(true,12,19)
+##############################################
 
-#Failure
+##############################################
+##Failure Endings
+##############################################
 /UI/Layer_3/LibraryPanel/Panels/Dead/Scroll View/Viewport/Content/LibraryDeadItem(Clone)/Visible=AutoResize(true,16,19)
 /UI/Layer_3/LibraryPanel/Panels/Dead/Scroll View/Viewport/Content/LibraryDeadItem(Clone)/Visible/Title=AutoResize(true,12,21)
+##############################################
 
-#Fate Bonus=====
+##############################################
+##Fate Bonus
+##############################################
 /[UI]/TopPanel/FateBonusPanel/Container/Buttons=AutoResize(true,12,12)
-/[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/SaveButton=AutoResize(true,18,18)
-/[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/ResetButton=AutoResize(true,18,18)
-
-#Attributes
-/[UI]/TopPanel/FateBonusPanel/Container/Panels/Property/Scroll View/Viewport/Container=AutoResize(true,18,18)
-
-#Relationships
-/[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/Scroll View/Viewport/Content=AutoResize(true,18,18)
-/[UI]/TopPanel/FateBonusPanel/Container/Panels/Social/Scroll View/Viewport/Content=UGUI_HorizontalOverflow(wrap)
-
-#Sects
-/[UI]/TopPanel/FateBonusPanel/Container/Panels/Home/Container/BonusFlag(Clone)/Name=AutoResize(true,18,18)
-#==============
+/[UI]/TopPanel/FateBonusPanel/Container/Panels=AutoResize(true,18,18)
+##############################################
 
 
 /[UI]/MainUI/Layer_3/Time/Text=AutoResize(true,16,34)
@@ -194,9 +204,11 @@
 
 /[UI]/MainUI/Layer_1/ReadyText/Center=UGUI_HorizontalOverflow(overflow)
 /[UI]/MainUI/Layer_1/ReadyText/Center=ChangeFontSizeByPercentage(0.7)
+##############################################
 
-
-# Battle UI
+##############################################
+##Battle UI
+##############################################
 /[UI]/MainUI/Level_3/ReadyPanel/Container/SkillSetting/Title=AutoResize(true,12,30)
 /[UI]/MainUI/Level_3/ReadyPanel/Container/SkillPanel/Info/Title=AutoResize(true,12,20)
 /[UI]/MainUI/Level_3/ReadyPanel/Container/SkillPanel/Info/Desc=ChangeFontSizeByPercentage(0.9)
@@ -212,11 +224,11 @@
 /[UI]/MainUI/Level_2/CutInPanels/SkillCut_Brother1(Clone)/Name=AutoResize(true,12,30)
 /[UI]/MainUI/Level_2/CutInPanels/SkillCut_Brother1(Clone)/Dialog/Content/SkillDialogText(Clone)=AutoResize(true,12,30)
 /[UI]/MainUI/Level_3/GameOverPanel/WinPanel/VictoryText=AutoResize(true,12,72)
+##############################################
 
-
-==================================
-#Story Dialogue Box
-==================================
+##############################################
+##Story Dialogue Box
+##############################################
 /StoryCore/SayDialogs/CharacterSayDialog/Panel/Background/StoryText=AutoResize(true,10,24)
 /StoryCore/SayDialogs/ThinkSayDialog/Panel/Background/StoryText=AutoResize(true,10,24)
 
@@ -235,10 +247,11 @@
 /[UI]/MainUI/Layer_6/LogMenu/NarrativeLog/Header=AutoResize(true,60,60)
 /[UI]/MainUI/Layer_3/MenuButtons/Log/Normal/Text=UGUI_HorizontalOverflow(overflow)
 /[UI]/MainUI/Layer_6/LogMenu/NarrativeLog/NarrativeLogView/Viewport/Content=AutoResize(true,22,22)
-==================================
-==================================
-#Biography Panel
-==================================
+##############################################
+
+##############################################
+##Biography Panel
+##############################################
 /[UI]/TopPanel/StatusPanel/Container/Panels/Social/Charater/Info/Title=AutoResize(true,30,30)
 /[UI]/TopPanel/StatusPanel/Container/Panels/Social/Charater/Info/Name=AutoResize(true,28,28)
 
@@ -248,7 +261,7 @@
 /[UI]/TopPanel/StatusPanel/Container/Panels/Social/Description/Title=AutoResize(true,28,28)
 
 /[UI]/TopPanel/StatusPanel/Container/Panels/Social/Description/Desc Scroll View/Viewport/DescText=AutoResize(true,12,18)
-==================================
+##############################################
 
 /[UI]/TopPanel/CharacterIntroPanel/Frame/Name=AutoResize(true,24,42)
 /[UI]/TopPanel/CharacterIntroPanel/Frame/Name=UGUI_HorizontalOverflow(overflow)
@@ -257,112 +270,324 @@
 /[UI]/TopPanel/CharacterIntroPanel/Frame/Intro=AutoResize(true,8,18)
 
 
+##############################################
+##Dice Roll UI
+##############################################
+/StoryCore/MenuDialogs/DiceMenuDialog/Header=AutoResize(true,28,28)
+/StoryCore/MenuDialogs/DiceMenuDialog/ButtonGroup=AutoResize(true,21,21)
+/StoryCore/MenuDialogs/DiceMenuDialog/Roll/BaseMaxDice=AutoResize(true,20,20)
+##############################################
 
-/StoryCore/MenuDialogs/DiceMenuDialog/Header=AutoResize(true,18,32)
-/StoryCore/MenuDialogs/DiceMenuDialog/ButtonGroup=AutoResize(true,12,22)
-/StoryCore/MenuDialogs/DiceMenuDialog/Roll/BaseMaxDice=AutoResize(true,12,26)
+/StoryCore/MenuDialogs/SectionFree02_MenuDialog/Container/Window=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/SectionFree02_MenuDialog/Container/Window=UGUI_ChangeLineSpacing(0.8)
+/StoryCore/MenuDialogs/SectionFree02_MenuDialog/Container/Window=UGUI_VerticalOverflow(overflow)
 
-/StoryCore/MenuDialogs/StudyMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup=AutoResize(true,10,24)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/TalkMenuDialog/Container/Window=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/TalkMenuDialog/Container/Window=UGUI_ChangeLineSpacing(0.8)
+/StoryCore/MenuDialogs/TalkMenuDialog/Container/Window=UGUI_VerticalOverflow(overflow)
 
-/StoryCore/MenuDialogs/ForgeMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup=AutoResize(true,10,24)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/MeetMenuDialog/Container/Window=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/MeetMenuDialog/Container/Window=UGUI_ChangeLineSpacing(0.8)
+/StoryCore/MenuDialogs/MeetMenuDialog/Container/Window=UGUI_VerticalOverflow(overflow)
 
-/StoryCore/MenuDialogs/KitchenMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup=AutoResize(true,10,24)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/DoorMenuDialog/Container/Window=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/DoorMenuDialog/Container/Window=UGUI_ChangeLineSpacing(0.8)
+/StoryCore/MenuDialogs/DoorMenuDialog/Container/Window=UGUI_VerticalOverflow(overflow)
 
-/StoryCore/MenuDialogs/AlchemyMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup=AutoResize(true,10,24)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/OptionMenuDialog/ButtonGroup=AutoResize(true,18,18)
+##############################################
 
+##############################################
+##Zhengxin Hall UI
+##############################################
 /StoryCore/MenuDialogs/MallMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup=AutoResize(true,10,24)
+/StoryCore/MenuDialogs/MallMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup=AutoResize(true,16,16)
 /StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
 /StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
 /StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
 /StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
 /StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/MallMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
 
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup=AutoResize(true,10,24)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
+##############################################
+##Lecture Hall UI
+##############################################
+/StoryCore/MenuDialogs/StudyMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/StudyMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/StudyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
 
-
-/StoryCore/MenuDialogs/BackMountainMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup=AutoResize(true,10,24)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
-
-/StoryCore/MenuDialogs/RoomMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup=AutoResize(true,10,24)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
-
+##############################################
+##Training Grounds UI
+##############################################
 /StoryCore/MenuDialogs/CenterMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup=AutoResize(true,10,24)
+/StoryCore/MenuDialogs/CenterMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup=AutoResize(true,16,16)
 /StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
 /StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
 /StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
 /StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
 /StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
-/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,10,18)
+/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/CenterMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Male Dorm UI
+##############################################
+/StoryCore/MenuDialogs/RoomMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/RoomMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/RoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Female Dorm UI
+##############################################
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/GirlRoomMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Back Mountains UI
+##############################################
+/StoryCore/MenuDialogs/BackMountainMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/BackMountainMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Alchemy Room UI
+##############################################
+/StoryCore/MenuDialogs/AlchemyMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/AlchemyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Kitchen UI
+##############################################
+/StoryCore/MenuDialogs/KitchenMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/KitchenMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/KitchenMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Forge UI
+##############################################
+/StoryCore/MenuDialogs/ForgeMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/ForgeMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/ForgeMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Pharmacy UI
+##############################################
+/StoryCore/MenuDialogs/PharmacyMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/PharmacyMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Teashop UI
+##############################################
+/StoryCore/MenuDialogs/TeashopMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/TeashopMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/TeashopMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##OuterFort UI
+##############################################
+/StoryCore/MenuDialogs/FortressMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/FortressMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/FortressMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##HotSprings UI
+##############################################
+/StoryCore/MenuDialogs/SpaMenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/SpaMenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/SpaMenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Changfeng Temple UI
+##############################################
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_01_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Shangqing Palace UI
+##############################################
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_02_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+##############################################
+##Qingcheng Town UI
+##############################################
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/Header=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/Header=AutoResize(true,32,32)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup=AutoResize(true,16,16)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup=UGUI_ChangeLineSpacing(1.2)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton0/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton0/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton1/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton1/Normal/Desc=AutoResize(true,18,18)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton2/Normal/Type=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton2/Normal/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton2/Hover/Title=UGUI_HorizontalOverflow(overflow)
+/StoryCore/MenuDialogs/Section02_03_MenuDialog/ButtonGroup/PositionOptionButton2/Normal/Desc=AutoResize(true,18,18)
+##############################################
+
+
 
 /[UI]/MainUI/Layer_5/Picture/Text=AutoResize(true,10,18)
+##############################################
+##Martial Arts Training Panel
+##############################################
 
-/[UI]/TopPanel/MartialPanel/Container/TitleFlag_Training/Title=AutoResize(true,14,44)
+/[UI]/TopPanel/MartialPanel/Container/TitleFlag_Training/Title=AutoResize(true,32,32)
 
-/[UI]/TopPanel/MartialPanel/Container/Panel/Buttons=AutoResize(true,12,14)
+/[UI]/TopPanel/MartialPanel/Container/Panel/Buttons=AutoResize(true,16,16)
 /[UI]/TopPanel/MartialPanel/Container/Panel/Buttons=UGUI_HorizontalOverflow(overflow)
 
-/[UI]/TopPanel/MartialPanel/Container/Panel/Detail/TraningButton/Disable/Text(1)=AutoResize(true,16,42)
+/[UI]/TopPanel/MartialPanel/Container/Panel/Detail/TraningButton/Disable/Text(1)=AutoResize(true,16,16)
 /[UI]/TopPanel/MartialPanel/Container/Panel/Detail/TraningButton/Disable/Text(1)=UGUI_HorizontalOverflow(overflow)
-/[UI]/TopPanel/MartialPanel/Container/Panel/Detail/TraningButton/Disable/Text(2)=AutoResize(true,16,42)
+/[UI]/TopPanel/MartialPanel/Container/Panel/Detail/TraningButton/Disable/Text(2)=AutoResize(true,16,16)
 /[UI]/TopPanel/MartialPanel/Container/Panel/Detail/TraningButton/Disable/Text(2)=UGUI_HorizontalOverflow(overflow)
 
 /[UI]/TopPanel/MartialPanel/Container/Panel/Detail/StatRelation=AutoResize(true,12,16)
@@ -378,15 +603,15 @@
 /[UI]/TopPanel/MartialPanel/Container/Panel/Panels/MartialListPanel_Fist/Scroll View/Viewport/Content=UGUI_VerticalOverflow(overflow)
 /[UI]/TopPanel/MartialPanel/Container/Panel/Panels/MartialListPanel_Sword/Scroll View/Viewport/Content=UGUI_VerticalOverflow(overflow)
 
-/StoryCore/MenuDialogs/TalkMenuDialog/Container/Window/Scroll View/Viewport/Content=AutoResize(true,10,18)
-/StoryCore/MenuDialogs/TalkMenuDialog/Container/Window/Scroll View/Viewport/Content=UGUI_ChangeLineSpacing(0.8)
-/StoryCore/MenuDialogs/TalkMenuDialog/Container/Window/Scroll View/Viewport/Content=UGUI_VerticalOverflow(overflow)
+/[UI]/TopPanel/MartialPanel/StatModPlaceholder=AutoResize(true,10,10)
+/[UI]/TopPanel/MartialPanel/StatModPlaceholder=UGUI_HorizontalOverflow(overflow)
+/[UI]/TopPanel/MartialPanel/Container/Panel/Detail/TraningButton=AutoResize(true,16,16)
 
+##############################################
 
-
-
-
-#PoisonUpgradePanel
+##############################################
+##PoisonUpgradePanel
+##############################################
 /[UI]/TopPanel/PoisonUpgradePanel/Container/TitleFlag_Alchemy/Title=AutoResize(true,16,52)
 /[UI]/TopPanel/PoisonUpgradePanel/Container/TitleFlag_Alchemy/Title=UGUI_HorizontalOverflow(overflow)
 
@@ -396,9 +621,9 @@
 /[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Points/MaxCountText=AutoResize(true,12,12)
 /[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Points/MoneyText=AutoResize(true,12,12)
 
-/[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Name=AutoResize(true,20,30)
-
-/[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Desc=AutoResize(true,16,20)
+/[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Name=AutoResize(true,22,26)
+/[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Desc=AutoResize(true,18,20)
+/[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/Level/Text=AutoResize(true,16,16)
 
 /[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/AlchemyButton=AutoResize(true,16,32)
 /[UI]/TopPanel/PoisonUpgradePanel/Container/Detail/AlchemyButton=UGUI_HorizontalOverflow(overflow)
@@ -437,11 +662,18 @@
 /[UI]/TopPanel/PoisonUpgradePanel/DevelopPanel/List/DevelopItemPanel(Clone)/Public/Name=UGUI_ChangeLineSpacing(1.2)
 
 /[UI]/TopPanel/PoisonUpgradePanel/DevelopPanel/Detail/Desc/DevelopItemDescText(Clone)=AutoResize(true,16,20)
+/[UI]/TopPanel/PoisonUpgradePanel/DevelopPanel/Detail/RefundInfo/Header=AutoResize(true,14,14)
+##############################################
 
-#WeaponUpgradePanel
+##############################################
+##WeaponUpgradePanel
+##############################################
 
-/[UI]/TopPanel/WeaponUpgradePanel/Container/Detail/Name=AutoResize(true,20,30)
-/[UI]/TopPanel/WeaponUpgradePanel/Container/Detail/Desc=AutoResize(true,16,20)
+
+
+/[UI]/TopPanel/WeaponUpgradePanel/Container/Detail/Name=AutoResize(true,22,26)
+/[UI]/TopPanel/WeaponUpgradePanel/Container/Detail/Desc=AutoResize(true,18,20)
+/[UI]/TopPanel/WeaponUpgradePanel/Container/Detail/Level/Text=AutoResize(true,16,16)
 
 /[UI]/TopPanel/WeaponUpgradePanel/Container/TitleFlag_Forge/Title=AutoResize(true,16,52)
 /[UI]/TopPanel/WeaponUpgradePanel/Container/TitleFlag_Forge/Title=UGUI_HorizontalOverflow(overflow)
@@ -485,11 +717,6 @@
 
 /[UI]/MainUI/Layer_1/Round/Container/Value=UGUI_HorizontalOverflow(overflow)
 
-/[UI]/MainUI/Layer_3/ActionButtonPanel=AutoResize(true,13,28)
-/[UI]/MainUI/Layer_3/ActionButtonPanel=UGUI_ChangeLineSpacing(1.3)
-/[UI]/MainUI/Layer_3/ActionButtonPanel=UGUI_HorizontalOverflow(wrap)
-/[UI]/MainUI/Layer_3/ActionButtonPanel=UGUI_VerticalOverflow(overflow)
-
 /[UI]/MainUI/Layer_1/ReadyText/Left=AutoResize(true,16,38)
 /[UI]/MainUI/Layer_1/ReadyText/Left=UGUI_HorizontalOverflow(overflow)
 /[UI]/MainUI/Layer_1/ReadyText/Left=TMP_Overflow(Overflow)
@@ -499,8 +726,9 @@
 /[UI]/MainUI/Layer_1/ReadyText/Right=TMP_Overflow(Overflow)
 /[UI]/MainUI/Layer_1/ReadyText/Right=TMP_Alignment(Middle)
 
-
-#Main Map=====
+##############################################
+##Main Map
+##############################################
 /MainMap/Room/Tooltip_Room/Back/Title=UGUI_HorizontalOverflow(wrap)
 /MainMap/Room/Tooltip_Room/Back/Title=AutoResize(true,12,20)
 
@@ -530,17 +758,24 @@
 
 /MainMap/Forge/Tooltip_Forge/Back/Title=UGUI_HorizontalOverflow(wrap)
 /MainMap/Forge/Tooltip_Forge/Back/Title=AutoResize(true,12,20)
-#=====
+##############################################
 
-# World Map ###########
+##############################################
+##World Map
 /[UI]/MainUI/Layer_5/Map/Background/[Name]=AutoResize(true,12,12)
 /[UI]/MainUI/Layer_5/Map/Background/[Name]=UGUI_HorizontalOverflow(overflow)
 ##############################################
 
-#Ending Slides=====
+##############################################
+##Ending Slides
+##############################################
 /[UI]/TopPanel/CG_Panel/VerticalDesc/CgText(Clone)=UGUI_HorizontalOverflow(overflow)
 /[UI]/TopPanel/CG_Panel/VerticalDesc/CgText(Clone)=ChangeFontSizeByPercentage(0.5)
-#=====
+
+/Canvas/TitleButton/Hover=AutoResize(true,24,24)
+/Canvas/Horizontal/TitleText=UGUI_HorizontalOverflow(overflow)
+/Canvas/Vertical/TitleText=UGUI_HorizontalOverflow(overflow)
+##############################################
 
 ##############################################
 ##Combat Manual Training Panel
@@ -571,11 +806,12 @@
 /[UI]/TopPanel/MartialPanel/Container/Panel/Panels/MartialListPanel_Etc/Scroll View/Viewport/Content/MartialItem(Clone)=UGUI_HorizontalOverflow(wrap)
 
 ##############################################
-
 ##Status Panel->Attributes->Skills->Description
+##############################################
 /[UI]/TopPanel/StatusPanel/Container/Panels/Property/Panels/SkillPanel/SkillDescText=AutoResize(true,12,18)
-
 /[UI]/TopPanel/StatusPanel/Container/Panels/Item/Type/Header/Text=UGUI_HorizontalOverflow(overflow)
+##############################################
+
 ##############################################
 ##Inventory
 ##############################################
@@ -801,16 +1037,49 @@
 
 /[UI]/TopPanel/ShopPanel/Buttons=AutoResize(true,30,30)
 ##############################################
-##BattleUI
+##DuelUI
 ##############################################
-#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Curse/Name=
-#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Attack/Name=
-#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Block/Name
-#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Weapon/Name=
-#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Ultimate/Name=
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Curse/Name=ChangeFontSize(16)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Attack/Name=ChangeFontSize(16)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Block/Name=ChangeFontSize(16)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Weapon/Name=ChangeFontSize(16)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Ultimate/Name=ChangeFontSize(16)
 
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Curse/Cost=ChangeFontSize(14)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Attack/Cost=ChangeFontSize(14)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Block/Cost=ChangeFontSize(14)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Weapon/Cost=ChangeFontSize(14)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Ultimate/Cost=ChangeFontSize(14)
+
+/[UI]/MainUI/Layer_3/ActionButtonPanel/ActionText=UGUI_HorizontalOverflow(overflow)
+/[UI]/MainUI/Layer_3/ActionButtonPanel/ActionText=ChangeFontSize(14)
+
+#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Curse/Name=UGUI_HorizontalOverflow(overflow)
+#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Attack/Name=UGUI_HorizontalOverflow(overflow)
+#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Block/Name=UGUI_HorizontalOverflow(overflow)
+#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Weapon/Name=UGUI_HorizontalOverflow(overflow)
+#/[UI]/MainUI/Layer_3/ActionButtonPanel/Action_Ultimate/Name=UGUI_HorizontalOverflow(overflow)
+
+#/[UI]/MainUI/Layer_2/PlayerStatus/ActionInfo=UGUI_HorizontalOverflow(overflow)
+#/[UI]/MainUI/Layer_2/PlayerStatus/ActionInfo/NormalName=ChangeFontSize(16)
+#/[UI]/MainUI/Layer_2/PlayerStatus/ActionInfo/HoverName=ChangeFontSize(16)
+
+#/[UI]/MainUI/Layer_2/EnemyStatus/ActionInfo=UGUI_HorizontalOverflow(overflow)
+#/[UI]/MainUI/Layer_2/EnemyStatus/ActionInfo=ChangeFontSize(16)
+
+#/[UI]/MainUI/Layer_3/ActionButtonPanel=UGUI_HorizontalOverflow(overflow)
 /[UI]/MainUI/Layer_2/PlayerStatus/BuffContainer/PlayerBuff(Clone)/Container/Name=AutoResize(true,14,14)
 /[UI]/MainUI/Layer_2/PlayerStatus/BuffContainer/PlayerBuff(Clone)/Container/Type=AutoResize(true,12,12)
 /[UI]/MainUI/Layer_2/EnemyStatus/BuffContainer/EnemyBuff(Clone)/Container/Name=AutoResize(true,14,14)
 /[UI]/MainUI/Layer_2/EnemyStatus/BuffContainer/EnemyBuff(Clone)/Container/Type=AutoResize(true,12,12)
+
+
+
+/[UI]/MainUI/Layer_5/PlayerDialog/Text=AutoResize(true,20,20)
+/[UI]/MainUI/Layer_5/EnemyDialog/Text=AutoResize(true,20,20)
 ##############################################
+
+
+
+
+
