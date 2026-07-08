@@ -69,13 +69,7 @@ Please delete the existing BepInEx folder if you're updating from an older versi
 
 xUnityAutoTranslator might not detect text if the setting `Enable color change of read text` is on. Keep it off.
 
-This combined branch imports structured translation data from `LegendOfMortalOverLlm` for `Mods/English/StringTable.csv` and merges its XUnity text with the original LoM_en dictionary. The current generated files were built from the local `LegendOfMortalOverLlm` checkout on PR #1 (`pr-1-dagashi`). Rebuild the generated files and local package with:
-
-```
-uv run tools/build_combined_mod.py
-```
-
-The generated package is written to `dist/LegendOfMortal-English-combined.zip`; `dist/` is intentionally not tracked.
+Legend remains untranslated. It is a record/summary of events that you've experienced as a player. xUnityAutoTranslator will not detect blocks of text that huge as the character limit is 2500.
 
 If you are having trouble with the installation or would like to report mistranslated/incomprehensible text, feel free to DM me on Discord@`.velvetcakes1`
 
