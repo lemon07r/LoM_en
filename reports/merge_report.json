@@ -1,13 +1,13 @@
 {
   "source_roots": {
-    "base": "/home/lamim/Development/Games/translations/LoM_en",
-    "import": "/home/lamim/Development/Games/translations/LegendOfMortalOverLlm"
+    "base": "LoM_en",
+    "import": "LegendOfMortalOverLlm"
   },
   "source_git": {
     "base": {
       "branch": "combined-llm-translation",
-      "sha": "7a84524573e3ca74535dbafa15e21998fd982ab4",
-      "short_sha": "7a84524",
+      "sha": "9a178937605c951b61af379330cd6e9e3cec2833",
+      "short_sha": "9a17893",
       "remote": "https://github.com/lemon07r/LoM_en.git"
     },
     "import": {

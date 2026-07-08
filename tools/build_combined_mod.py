@@ -200,7 +200,7 @@ def parse_loose_scalar(value: str) -> str:
 def load_converted_stringtable(path: Path) -> list[dict[str, Any]]:
     try:
         return load_yaml_list(path)
-    except yaml.YAMLError:
+    except (TypeError, yaml.YAMLError):
         items: list[dict[str, Any]] = []
         current: dict[str, Any] | None = None
         current_split: dict[str, Any] | None = None
@@ -658,17 +658,23 @@ def validate_package() -> dict[str, Any]:
         "doorstop_config.ini",
         "winhttp.dll",
     }
+    config_path = "BepInEx/config/AutoTranslatorConfig.ini"
     names = set()
     with zipfile.ZipFile(ZIP_OUT) as archive:
         names = set(archive.namelist())
+        try:
+            config_text = archive.read(config_path).decode("utf-8-sig")
+        except KeyError:
+            config_text = ""
 
     has_bepinex = any(name.startswith("BepInEx/") for name in names)
     has_textures = any(name.startswith("BepInEx/Translation/en/Texture/") and name.endswith(".png") for name in names)
     missing = sorted(item for item in required if item != "BepInEx/" and item not in names)
     if not has_bepinex:
         missing.append("BepInEx/")
+    if config_path not in names:
+        missing.append(config_path)
 
-    config_text = read_text(MOD_DIR / "BepInEx" / "config" / "AutoTranslatorConfig.ini")
     config_checks = {
         "Language=en": "Language=en" in config_text,
         "FromLanguage=zh-CN": "FromLanguage=zh-CN" in config_text,
@@ -811,8 +817,8 @@ def main() -> int:
 
     report = {
         "source_roots": {
-            "base": str(ROOT),
-            "import": str(import_root),
+            "base": ROOT.name,
+            "import": import_root.name,
         },
         "source_git": {
             "base": git_metadata(ROOT),
